@@ -1,10 +1,13 @@
-import "./App.css";
+import Header from './components/Header';
+import Footer from './components/Footer';
+import { MainContent } from './components/Content';
 
 function App() {
   return (
     <>
-      <h1>Мои домашние задания по React</h1>
-      <p>это учебный React-проект</p>
+      <Header />
+      <MainContent />
+      <Footer />
     </>
   );
 }
